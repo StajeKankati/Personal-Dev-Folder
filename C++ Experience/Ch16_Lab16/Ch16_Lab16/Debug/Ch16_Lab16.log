@@ -1,0 +1,50 @@
+﻿Build started 11/28/2016 4:47:07 PM.
+     1>Project "E:\Intro to computer science II\Ch16_Lab16\Ch16_Lab16\Ch16_Lab16.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): error C2011: 'employee': 'class' type redefinition
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): note: see declaration of 'employee'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(37): error C2027: use of undefined type 'employee'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): note: see declaration of 'employee'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(39): error C2065: 'empName': undeclared identifier
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(41): error C2027: use of undefined type 'employee'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): note: see declaration of 'employee'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(44): error C3861: 'InvalidemployeeNumber': identifier not found
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(46): error C2065: 'empNumber': undeclared identifier
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(50): error C2027: use of undefined type 'employee'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): note: see declaration of 'employee'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(52): error C2065: 'Hiredate': undeclared identifier
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(54): error C2027: use of undefined type 'employee'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): note: see declaration of 'employee'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(56): error C2065: 'empName': undeclared identifier
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(58): error C2027: use of undefined type 'employee'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): note: see declaration of 'employee'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(60): error C2065: 'empNumber': undeclared identifier
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(62): error C2027: use of undefined type 'employee'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): note: see declaration of 'employee'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(64): error C2065: 'Hiredate': undeclared identifier
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\productionworker.h(8): error C2504: 'employee': base class undefined
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(21): error C2039: 'setempName': is not a member of 'ProductionWorker'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\productionworker.h(7): note: see declaration of 'ProductionWorker'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(22): error C2039: 'setHiredate': is not a member of 'ProductionWorker'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\productionworker.h(7): note: see declaration of 'ProductionWorker'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(25): error C2039: 'setempNumber': is not a member of 'ProductionWorker'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\productionworker.h(7): note: see declaration of 'ProductionWorker'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(29): error C2027: use of undefined type 'employee'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\stdafx.h(7): note: see declaration of 'employee'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(29): error C2061: syntax error: identifier 'InvalidemployeeNumber'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(29): error C2310: catch handlers must specify one type
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(33): error C2311: 'ProductionWorker::InvalidShift': is caught by '...' on line 33
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(37): error C2311: 'ProductionWorker::InvalidPayRate': is caught by '...' on line 37
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(42): error C2039: 'getempName': is not a member of 'ProductionWorker'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\productionworker.h(7): note: see declaration of 'ProductionWorker'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(43): error C2039: 'getempNumber': is not a member of 'ProductionWorker'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\productionworker.h(7): note: see declaration of 'ProductionWorker'
+     1>e:\intro to computer science ii\ch16_lab16\ch16_lab16\main.cpp(44): error C2039: 'getHiredate': is not a member of 'ProductionWorker'
+         e:\intro to computer science ii\ch16_lab16\ch16_lab16\productionworker.h(7): note: see declaration of 'ProductionWorker'
+     1>Done Building Project "E:\Intro to computer science II\Ch16_Lab16\Ch16_Lab16\Ch16_Lab16.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.90
