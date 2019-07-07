@@ -136,6 +136,6 @@ include("auth.php");
 ?>
 		<footer id="copyright">Copyright &copy; 2018, Run for the Mills</footer>
 	</body>
-</html>
+</html> 
 
 <!-- -->
